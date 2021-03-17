@@ -1,0 +1,67 @@
+TitleBart#widget_title
+{
+      background-color:qlineargradient(x1:0,y1:0,x2:0,y2:1,stop:0 rgb(135,206,250),stop:1 rgb(135,206,235));
+}
+TitleWidget#settingTitleWidget
+{
+      background-color:qlineargradient(x1:0,y1:0,x2:0,y2:1,stop:0 rgb(210,180,140),stop:1 rgb(222,184,135));
+}
+QPushButton 
+{
+      border: 2px solid #8f8f91;
+      border-radius: 6px;
+      background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                        stop: 0 rgb(247,238,214), stop: 1 rgb(240,230,210));
+      min-width: 80px;
+ }
+ QPushButton:pressed
+ {
+      background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                        stop: 0 rgb(240,230,210), stop: 1 rgb(247,238,214));
+      color:red;
+ }
+ QPushButton:flat
+{
+      border: none; /* no border for a flat push button */
+}
+QPushButton:default
+ {
+      border-color: navy; /* make the default button prominent */
+ }
+QToolButton::menu-indicator
+{
+      image:none;
+}
+QToolButton#btn_max:hover
+{
+      background-color:rgb(204,204,204);
+}
+QToolButton#btn_min:hover
+{
+      background-color:rgb(204,204,204);
+}
+QToolButton#btn_menu:hover
+{
+      background-color:rgb(204,204,204);
+}
+QToolButton#btn_close:hover
+{
+      background-color:rgb(204,204,204);
+}
+QToolButton#btn_shop:hover
+{
+      background-color:rgb(204,204,204);
+}
+QToolButton#btn_close:hover
+{
+      background-color:red;
+}
+QListWidget
+{
+      background-color:rgb(204,204,204);
+      border:0px;
+}
+QListWidget::item
+{
+      height:35px;
+}
